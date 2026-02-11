@@ -13,5 +13,8 @@ public class Main {
 
         Box copy = new Box(b3);
         System.out.println(copy.l+" "+copy.h+" "+copy.w);
+
+        BoxWeight box5 = new BoxWeight(12, 9, 8 , 25);
+        System.out.println(box5.l+" "+box5.h+" "+box5.w+box5.weight);
     }
 }
