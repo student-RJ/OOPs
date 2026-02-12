@@ -5,5 +5,14 @@ public class Main {
 
         Student s = new Student ("Rohan",19);
         s.display();
+
+
+        // created for second  class
+
+        ElectricCar car = new ElectricCar();
+
+        car.start();
+        car.drive();
+        car.charge();
     }
 }
