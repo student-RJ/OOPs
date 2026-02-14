@@ -14,5 +14,11 @@ public class Main {
         car.start();
         car.drive();
         car.charge();
+
+        Rectangle r = new Rectangle(20,20);
+        r.Area();
+
+        Circle c = new Circle(23.5);
+        c.Area();
     }
 }
